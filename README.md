@@ -26,7 +26,6 @@ The minimum length of the read was set to be around 50.
 3.	Sorting and converting to bam-
 
 In this step samtools is used to convert the sam format to bam format and further for   sorting this bam format. For doing this we use samtools view and samtools sort. The output of this program is bam file, which is sorted, and this acts the input  for the next program that is Stringtie2.
-The command used to for executing the above mentioned steps is as follows-
  
 
 4.	Assembling  into possible transcript- 
